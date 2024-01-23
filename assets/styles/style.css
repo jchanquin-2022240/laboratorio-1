@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    /*background-color: #1F1F1F;*/
+}
+
+.header {
+    background-image: url(https://www.imagui.com/i/cielo-estrellas-ovnis-11023262.gif);
+    background-color: #040404;
+    background-attachment: fixed;  
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #040404;
+    position: fixed;
+}
+
+.logo {
+    margin: 5px;
+    font-size: 25px;
+    color: skyblue;
+    font-weight: 1000;
+    text-transform: uppercase;
+}
+
+.menu .navbar ul{
+   display: flex;
+   list-style: none;
+    justify-content: center;
+}
+
+.menu .navbar ul li a{
+   font-size: 20px;
+   padding: 20px;
+   color: #FFFFFF;
+   display: block;
+}
+
+.menu .navbar ul li a:hover {
+    color: skyblue;
+}
+
+.header-text, p{
+
+    font-size: 15px;
+    margin: 40px 250px;
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: 'Arial', cursive;
+    -webkit-text-fill-color: skyblue; 
+    -webkit-text-stroke: 0.1px #FFFFFF;
+}
+
+.header-txt span {
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+    color: skyblue;
+}
+
