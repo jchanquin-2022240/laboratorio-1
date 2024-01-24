@@ -61,4 +61,39 @@ body {
     color: skyblue;
 }
 
+.sobremi {
+    display: flexbox;
+    background-color: #040404;
+    margin: 150px 150px 0 150px;
+    border-radius: 30px;
+}
+
+.sobremi p, h1{
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 0 30px;
+    margin: 0 100px;
+}
+
+.sobremi img {
+    width: 275px;
+}
+
+.proyectos {
+    display: flexbox;
+    background-color: #040404;
+    margin: 30px 150px 0 150px;
+    border-radius: 30px;
+}
+
+.proyectos p, h1, a{
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 0 30px;
+    margin: 0 100px;
+}
+
+.proyectos img {
+    width: 700px;
+}
 
