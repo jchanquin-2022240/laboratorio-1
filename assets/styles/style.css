@@ -126,3 +126,9 @@ body {
     justify-content: center;
     color: skyblue;
 }
+
+.likes h3 {
+    font-size: 25px;
+    color: #ffffff;
+    padding: 10px;
+}
