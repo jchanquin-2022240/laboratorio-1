@@ -86,3 +86,13 @@ body {
     margin: 60px 50px;
     border-radius: 8px;
 }
+
+.likes {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 10px;
+}
+.title-like {
+    display: flex;
+    justify-content: center;
+}
