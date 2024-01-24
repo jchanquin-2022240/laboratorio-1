@@ -75,6 +75,11 @@ body {
     margin: 0 100px;
 }
 
+.sobremi h1 {
+    font-size: 30px;
+    color: skyblue;
+}
+
 .sobremi img {
     width: 275px;
 }
@@ -86,14 +91,23 @@ body {
     border-radius: 30px;
 }
 
-.proyectos p, h1, a{
+.proyectos p, h1{
     color: #FFFFFF;
     text-align: center;
     padding: 10px 0 30px;
     margin: 0 100px;
 }
 
+.proyectos h1  {
+    color: skyblue;
+    font-size: 30px;
+}
+
+.proyectos a  {
+    color: skyblue;
+    text-decoration: underline;
+}
+
 .proyectos img {
     width: 700px;
 }
-
