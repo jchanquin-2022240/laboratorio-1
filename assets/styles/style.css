@@ -132,3 +132,12 @@ body {
     color: #ffffff;
     padding: 10px;
 }
+
+.pie {
+    padding: 10px;
+    min-height: 5vh;
+    text-align: center;
+    background-color: #040404;
+    color: #FFFFFF;
+     
+}
