@@ -136,7 +136,7 @@ body {
     display: flex;
     padding: 0;
     width: 250%;
-    animation: cambio 17s infinite alternate linear;
+    animation: cambio 15s infinite alternate linear;
 }
 
 .habilidades li {
@@ -160,15 +160,15 @@ body {
         margin-left: 0;
     }
 
-    20% {
+    10% {
         margin-left: 0;
     }
 
-    25% {
+    20% {
         margin-left: -100%;
     }
 
-    45% {
+    40% {
         margin-left: -100%;
     }
 
