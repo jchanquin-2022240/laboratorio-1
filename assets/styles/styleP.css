@@ -118,7 +118,7 @@ body {
 }
 
 .habilidades {
-    padding: 10px 0 40px 0;
+    padding: 10px 0 40px 0px;
     display: flexbox;
     background-color: #040404;
     margin: 0px 150px 0 150px;
@@ -128,7 +128,7 @@ body {
 
 .habilidades {
     width: 80%;
-    margin: 20px 150px 0 150px;
+    margin: 20px 150px 20px 150px;
     overflow: hidden;
 }
 
@@ -187,4 +187,13 @@ body {
     100% {
         margin-left: -300%;
     }
+}
+
+.pie {
+    padding: 10px;
+    min-height: 5vh;
+    text-align: center;
+    background-color: #040404;
+    color: #FFFFFF;
+
 }
