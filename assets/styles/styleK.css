@@ -1,3 +1,58 @@
-/*logo {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+* {
+    margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1F1F1F;
+}
+
+.header {
+    background-image: url(/resourse/img/kinal.png);
+    background-color: #040404;
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    justify-content: space-between;
+    background-color: #122562;
+    position: fixed;
+}
+
+.menu .navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.menu .navbar ul li a {
+    font-size: 20px;
+    padding: 20px;
+    color: #FFFFFF;
+    display: block;
+}
+
+.menu .navbar ul li a:hover {
+    color: skyblue;
     color: #CDA434;
-    -webkit-text-stroke: 1px #FFD700;*/
+    -webkit-text-stroke: 1px #FFD700;
+}
+
