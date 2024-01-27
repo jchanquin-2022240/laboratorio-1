@@ -13,7 +13,6 @@ body {
 }
 
 .header {
-    
     background-image: url(/resourse/img/kinal.png);
     background-color: #040404;
     background-position: center top;
@@ -109,7 +108,7 @@ hr {
 .basico {
     text-align: center;
     padding: 30px 20px;
-    margin: 0 30px 100px 0;
+    margin: 0 30px 10px 0;
     width: 100%;
     height: 100%;
     
@@ -129,7 +128,7 @@ hr {
 .diver {
     text-align: center;
     padding: 22px 20px;
-    margin: 0 30px 100px 0;
+    margin: 0 30px 10px 0;
     width: 100%;
     height: 100%;
 }
@@ -150,13 +149,68 @@ hr {
     font-size: 17px;
 }
 
-
-.kinal {
-    background-attachment: fixed;
-        background-position: center top;
-        background-repeat: no-repeat;
-        background-size: cover;
-        min-height: 100vh;
-        display: flex;
-        align-items: center;
+.programa {
+    text-align: center;
+    padding: 10px 20px;
+    margin: 0 10px 10px 0px;
+    width: 100%;
+    height: 100%;
 }
+
+.programa p{
+    font-size: 17px;
+}
+
+.tecnico {
+    text-align: center;
+    padding: 10px 20px;
+    margin: 0 10px 20px 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.tecnico p {
+    font-size: 17px;
+}
+
+.kinal img{
+    background-attachment: fixed;
+    max-width: 1528px;
+    max-height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sponsors {
+    padding: 20px 0 20px 0;
+    display: flexbox;
+    background-color: #FFFFFF;
+}
+
+.sponsors {
+    width: 100%;
+    overflow: hidden;
+}
+
+.sponsors ul {
+    display: flex;
+    padding: 10px;
+    width: 111%;
+}
+
+.sponsors li {
+    display: flex;
+    align-content: center;
+    width: 30%;
+    list-style: none;
+}
+
+.sponsors img {
+    width: 40%;
+}
+
+.sponsors h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
